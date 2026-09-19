@@ -1,0 +1,115 @@
+{
+  "n_reviews": 2400,
+  "sentiment_classifier": {
+    "macro_f1": 0.8838,
+    "per_class_f1": {
+      "negative": 0.963,
+      "neutral": 0.8599,
+      "positive": 0.8286,
+      "macro avg": 0.8838,
+      "weighted avg": 0.9081
+    }
+  },
+  "ner_preprocessing": {
+    "key_phrase_only_inference_accuracy": 0.4704,
+    "entity_type_counts": {
+      "ORG": 2191,
+      "DATE": 447,
+      "PRODUCT": 303,
+      "CARDINAL": 233,
+      "PERSON": 207,
+      "TIME": 189,
+      "ORDINAL": 126,
+      "GPE": 65,
+      "FAC": 57,
+      "": 47,
+      "NORP": 29
+    }
+  },
+  "topic_model": {
+    "n_topics": 8,
+    "nmi_vs_ground_truth_category": 0.5269,
+    "topic_terms": {
+      "0": [
+        "records",
+        "dropping records",
+        "intermittently",
+        "dropping",
+        "sync",
+        "data sync",
+        "crm dropping",
+        "records intermittently"
+      ],
+      "1": [
+        "console",
+        "confusing",
+        "console confusing",
+        "admin console",
+        "members",
+        "new members",
+        "admin",
+        "members admin"
+      ],
+      "2": [
+        "add",
+        "support need",
+        "add sso",
+        "plans add",
+        "plans",
+        "expand usage",
+        "expand",
+        "sso"
+      ],
+      "3": [
+        "billing",
+        "took",
+        "weeks frustrating",
+        "getting",
+        "getting refund",
+        "billing process",
+        "overcharge took",
+        "process"
+      ],
+      "4": [
+        "dark mode",
+        "release",
+        "dark",
+        "added future",
+        "added",
+        "mode added",
+        "future release",
+        "future"
+      ],
+      "5": [
+        "feature crashes",
+        "filter",
+        "filter feature",
+        "feature",
+        "new filter",
+        "crashes app",
+        "tags",
+        "app"
+      ],
+      "6": [
+        "support",
+        "slow",
+        "double charged",
+        "double",
+        "respond",
+        "slow respond",
+        "month support",
+        "month"
+      ],
+      "7": [
+        "constantly",
+        "constantly update",
+        "timing constantly",
+        "work",
+        "timing",
+        "update",
+        "update work",
+        "update fantastic"
+      ]
+    }
+  }
+}
